@@ -3,7 +3,7 @@
 LILYGO® T-PicoC3 ESP32-C3 RP2040 Wireless WIFI Bluetooth Module Development Board Dual MCU 1.14 Inch ST7789V Display for Arduino
 
 
-How to recover RECOVER:
+How to RECOVER:
 
 For RP4020:
 Plug it in so the blue light is on and hold boot while hitting Run. If the light is green, unplug and flip over the USB-C cable and plug back in. 
