@@ -13,14 +13,14 @@ And then copy tft_config.py to RPI-RP2
 For ESP32C3:
 https://micropython.org/download/esp32c3-usb/
 Download select the "ESP32 C3 with USB"
-	•	First short IO9 to GND using the wire or the paper clip, then connect the board so the green LED is lit (no need to hit the BOOT button). Leave the wire in!
+	•	First short IO9 to GND using the wire or the paper clip, then connect the board so the green LED is lit (no need to hit the BOOT button). Leave 		the wire in!
 	•	Open a command window on your computer and you will see /dev/tty.usbmodem14401
 	•	Erase the flash memory with this command:
-python -u -m esptool --chip esp32c3 --port /dev/tty.usbmodem14401 erase_flash
+		python -u -m esptool --chip esp32c3 --port /dev/tty.usbmodem14401 erase_flash
 
 	•	Unplug the board, short IO9 to GND and reconnect the board
 	•	Now flash the firmware of the ESP32:
-python -u -m esptool --chip esp32c3 --port /dev/tty.usbmodem14401 --baud 460800 write_flash -z 0x0 /path/Documents/Arduino/T-PicoC3-main/RECOVER_T-PicoC3/esp32c3-usb-20230426-v1.20.0.bin
+		python -u -m esptool --chip esp32c3 --port /dev/tty.usbmodem14401 --baud 460800 write_flash -z 0x0 /path/Documents/Arduino/T-PicoC3-main/RECOVER_T-PicoC3/esp32c3-usb-20230426-v1.20.0.bin
 
 
 	•	Unplug the board, plug it again normally.
