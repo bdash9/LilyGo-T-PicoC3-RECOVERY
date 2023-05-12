@@ -1,7 +1,7 @@
 # LilyGo-T-PicoC3-RECOVERY
 
 LILYGO® T-PicoC3 ESP32-C3 RP2040 Wireless WIFI Bluetooth Module Development Board Dual MCU 1.14 Inch ST7789V Display for Arduino
-
+https://github.com/Xinyuan-LilyGO/T-PicoC3
 
 How to RECOVER:
 
