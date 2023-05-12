@@ -10,6 +10,9 @@ Plug it in so the blue light is on and hold boot while hitting Run. If the light
 The go to mac Finder and drag firmware.uf2 onto the new RPI-RP2.
 And then copy tft_config.py to RPI-RP2
 
+In Thonny, click View -> files
+Then stop, if anything is running and drag the new .py files to the Raspberry Pi Pico
+
 For ESP32C3:
 https://micropython.org/download/esp32c3-usb/
 Download select the "ESP32 C3 with USB"
