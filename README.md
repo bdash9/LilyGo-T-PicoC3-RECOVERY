@@ -22,7 +22,7 @@ Download select the "ESP32 C3 with USB"
 	•	Now flash the firmware of the ESP32:
 		python -u -m esptool --chip esp32c3 --port /dev/tty.usbmodem14401 --baud 460800 write_flash -z 0x0 /path/Documents/Arduino/T-PicoC3-main/RECOVER_T-PicoC3/esp32c3-usb-20230426-v1.20.0.bin
 
-  Ie. $ python -u -m esptool --chip esp32c3 --port /dev/tty.usbmodem1101 --baud 460800 write_flash -z 0x0 Documents/Arduino/T-PicoC3-main/RECOVER_T-PicoC3/esp32c3-usb-20230426-v1.20.0.bin
+  Ie. $ python -u -m esptool --chip esp32c3 --port /dev/tty.usbmodem1101 --baud 460800 write_flash -z 0x0 Documents/Arduino/T-PicoC3-main/RECOVER_T-PicoC3/ESP32_GENERIC_C3-20231005-v1.21.0.bin
 
 
 	•	Unplug the board, plug it again normally.
