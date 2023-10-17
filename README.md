@@ -11,6 +11,7 @@ The go to mac Finder and drag firmware.uf2 onto the new RPI-RP2.
 And then copy tft_config.py to RPI-RP2
 
 For ESP32C3:
+This will insatll micropyton on the esp32!
 https://micropython.org/download/esp32c3-usb/
 Download select the "ESP32 C3 with USB"
 	•	First short IO9 to GND using the wire or the paper clip, then connect the board so the green LED is lit (no need to hit the BOOT button). Leave 		the wire in!
